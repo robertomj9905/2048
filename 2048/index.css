@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+hr {
+    width: 500px;
+}
+
+h2 {
+    color: #834333;
+}
+
+#new-game {
+    color: #834333;
+    background-color: #E5E4E2;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 5px;
+    border-radius: 16px;
+    border: 2px solid black;
+    margin-left: 100px;
+}
+
+#new-game:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+    background-color: #cdc1b5;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.tile {
+    width: 90px;
+    height: 90px; 
+    border: 5px solid #bbada0;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game-rules {
+    color: #834333;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 12px;
+    margin-top: 20px;
+}
+
+
+/* Colors for specific tiles */
+.t2 {
+    background-color: #eee4da;
+    color: #727371;
+}
+
+.t4 {
+    background-color: #ede0c8;
+    color: #727371;
+}
+
+.t8 {
+    background-color: #f2b179;
+    color: white;
+}
+
+.t16{
+    background-color: #f59563;
+    color: white;
+}
+
+.t32{
+    background-color: #f67c5f;
+    color: white;
+}
+
+.t64{
+    background-color: #f65e3b;
+    color: white;
+}
+
+.t128{
+    background-color: #edcf72;
+    color: white;
+}
+
+.t256{
+    background-color: #edcc61;
+    color: white;
+}
+
+.t512{
+    background-color: #edc850;
+    color: white;
+}
+
+.t1024{
+    background-color: #edc53f;
+    color: white;
+}
+
+.t2048{
+    background-color: #edc22e;
+    color: white;
+}
